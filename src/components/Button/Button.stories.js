@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 
 export default {
-  title: "Button",// this is the title of the story that will display in the story browser
+  title: "Form/Button",// this is the title of the story that will display in the story browser
   component: Button,// this is the component for which we need to create the story
 };
 
