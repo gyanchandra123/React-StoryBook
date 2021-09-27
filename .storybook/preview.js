@@ -1,3 +1,6 @@
+import React from "react";
+import {addDecorator} from '@storybook/react';
+import Center from "../src/components/center/Center";
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   options: {
@@ -11,3 +14,6 @@ export const parameters = {
     },
   },
 }
+
+//global decorator:
+addDecorator((story) =><Center>{story()}</Center>)

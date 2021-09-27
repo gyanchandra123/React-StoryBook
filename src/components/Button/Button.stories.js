@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import Center from "../center/Center";
+//import Center from "../center/Center";
 
 export default {
   title: "Form/Button",// this is the title of the story that will display in the story browser
@@ -8,7 +8,7 @@ export default {
   args: {
     children:'Button' // maintening the same children value for all the stories for the book component.
   },
-  decorators:[(story) =><Center>{story()}</Center>]
+  //decorators:[(story) =><Center>{story()}</Center>]
 };   
 
 /* export const Primary = () => <Button variant='primary'>Primary</Button>
